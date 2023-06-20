@@ -17,3 +17,6 @@ truffle migrate
 cd ../client
 npm start
 ```
+
+- 5-simple-storage-dapp : Simple Storage avec [ethers.js](https://github.com/ethers-io/ethers.js/)
+- 6-bank-dapp : Exercice sur un Bank.sol pour send & withdraw de l'ether via une dApp
