@@ -24,8 +24,8 @@ connectButton.addEventListener('click', async function() {
 buttonSendEthers.addEventListener('click', async function() {
     if(typeof window.ethereum !== "undefined" && connectedAccount) {
         try {
-            let ethersAmount = inputSendEthers.value
-            ethersAmount = ethers.utils.parseEther(ethersAmount)
+            let ethersAmount = inputSendEthers.value // un montant en ethers
+            ethersAmount = ethers.utils.parseEther(ethersAmount) // un montant en wei pour l'envoi
             const provider = new ethers.providers.Web3Provider(window.ethereum)
             const signer = provider.getSigner()
             const contract = new ethers.Contract(contractAddress, abi, signer)
@@ -41,7 +41,7 @@ buttonSendEthers.addEventListener('click', async function() {
 buttonWithdrawEthers.addEventListener('click', async function() {
     if(typeof window.ethereum !== "undefined" && connectedAccount) {
         try {
-            let ethersAmount = inputSendEthers.value
+            let ethersAmount = inputWithdrawEthers.value
             ethersAmount = ethers.utils.parseEther(ethersAmount)
             const provider = new ethers.providers.Web3Provider(window.ethereum)
             const signer = provider.getSigner()
