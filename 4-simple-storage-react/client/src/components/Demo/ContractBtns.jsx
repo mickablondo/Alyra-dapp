@@ -43,7 +43,7 @@ function ContractBtns({ setValue, setGreeter }) {
       return;
     }
     if (inputGreeter === "") {
-      alert("Please enter a value to write.");
+      alert("Please enter a value.");
       return;
     }
     const newValue = inputGreeter;
