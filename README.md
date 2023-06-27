@@ -21,3 +21,5 @@ npm start
 - 5-simple-storage-dapp : Simple Storage avec [ethers.js](https://github.com/ethers-io/ethers.js/)
 - 6-bank-dapp : Exercice sur un Bank.sol pour send & withdraw de l'ether via une dApp
 - 7-nextjs-init : apprentissage de [Next.js](https://nextjs.org/)
+- 8-nextjs-dapp => à récupérer sur le github de Ben
+- 9-nextjs-rainbowkit
