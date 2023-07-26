@@ -59,3 +59,5 @@ yarn dev
 # ---> events par viem : getEvents async => await client.getLogs({event:parseAbiItem ....}) & pour les blocs from/to : getblockactuel + 200k block & depositEvents.map et les afficher
 yarn add uuidv4 # outil permettant de générer des identifiants unique car en reactjs chaque élément de la map doit avoir un id unique
 ```
+  
+- 11-uniswap-interact : test du [sdk uniswap](https://docs.uniswap.org/sdk/v3/overview)
